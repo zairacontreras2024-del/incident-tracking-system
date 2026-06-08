@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add Incident</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<h1>Add Incident</h1>
+
+<form method="POST">
+
+<label>Employee Name</label><br>
+<input type="text" name="employee_name"><br><br>
+
+<label>Incident Type</label><br>
+<input type="text" name="incident_type"><br><br>
+
+<label>Description</label><br>
+<textarea name="description" rows="5"></textarea><br><br>
+
+<button type="submit">Submit Incident</button>
+
+</form>
+
+</body>
+</html>

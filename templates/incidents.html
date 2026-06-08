@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Saved Incidents</title>
+</head>
+<body>
+
+<h1>Saved Incidents</h1>
+
+<table border="1" cellpadding="10">
+
+<tr>
+    <th>ID</th>
+    <th>Employee</th>
+    <th>Incident Type</th>
+    <th>Description</th>
+</tr>
+
+{% for incident in records %}
+
+<tr>
+    <td>{{ incident[0] }}</td>
+    <td>{{ incident[1] }}</td>
+    <td>{{ incident[2] }}</td>
+    <td>{{ incident[3] }}</td>
+</tr>
+{% endfor %}
+
+</table>
+
+</body>
+</html>
