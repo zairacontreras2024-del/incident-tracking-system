@@ -1,0 +1,18 @@
+Incident Report
+
+Incident ID: 1001
+Employee: John Smith
+Date: 2026-06-01
+Location: Plant A
+
+Incident Type:
+Near Miss
+
+Description:
+Employee observed an unsecured ladder near an active work area.
+
+Corrective Action:
+Ladder was removed and area inspected.
+
+Status:
+Closed
