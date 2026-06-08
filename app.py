@@ -1,9 +1,22 @@
-print("Incident Tracking System")
+# Incident Tracking System
+# Author: Zaira Contreras
 
-incident_id = 1001
-employee = "John Smith"
-incident_type = "Near Miss"
+print("=" * 40)
+print("      INCIDENT TRACKING SYSTEM")
+print("=" * 40)
 
-print(f"Incident ID: {incident_id}")
-print(f"Employee: {employee}")
-print(f"Type: {incident_type}")
+incident = {
+    "Incident ID": 1001,
+    "Employee Name": "John Smith",
+    "Incident Date": "2026-06-01",
+    "Incident Type": "Near Miss",
+    "Location": "Plant A",
+    "Description": "Unsecured ladder observed near active work area.",
+    "Corrective Action": "Ladder removed and area inspected.",
+    "Status": "Closed"
+}
+
+for key, value in incident.items():
+    print(f"{key}: {value}")
+
+print("\nIncident successfully recorded.")
