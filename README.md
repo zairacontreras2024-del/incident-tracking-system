@@ -11,25 +11,33 @@ A safety incident tracking application designed to help organizations record, ma
 - Monitor OSHA metrics
 - Dashboard analytics
 
-## Technologies
+## Technologies Used
 
 - Python
+- SQL
 - SQLite
 - GitHub
-- SQL
 
-## Project Goals
+## Project Overview
 
-This project demonstrates software development, database design, and safety management concepts by creating a practical incident tracking solution for industrial and construction environments.
+This project demonstrates software development, database design, and safety management principles through the creation of a workplace incident tracking system. The application is designed to help organizations improve safety performance, document incidents, and monitor corrective actions.
 
 ## Future Enhancements
 
-- User login system
+- Employee login system
+- SQLite database integration
 - PDF report generation
-- Power BI integration
+- OSHA recordable rate calculations
+- Power BI dashboard integration
 - Email notifications
-- OSHA recordable calculations
+- Web application interface
 
 ## Author
 
 Zaira Contreras
+
+Bachelor of Science in Computer Science (In Progress)
+
+Certified Safety and Health Specialist (CSST)
+
+CHST Candidate
