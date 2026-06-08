@@ -1,22 +1,14 @@
-# Incident Tracking System
-# Author: Zaira Contreras
+from flask import Flask, render_template
 
-print("=" * 40)
-print("      INCIDENT TRACKING SYSTEM")
-print("=" * 40)
+app = Flask(__name__)
 
-incident = {
-    "Incident ID": 1001,
-    "Employee Name": "John Smith",
-    "Incident Date": "2026-06-01",
-    "Incident Type": "Near Miss",
-    "Location": "Plant A",
-    "Description": "Unsecured ladder observed near active work area.",
-    "Corrective Action": "Ladder removed and area inspected.",
-    "Status": "Closed"
-}
+@app.route("/")
+def home():
+    return render_template("index.html")
 
-for key, value in incident.items():
-    print(f"{key}: {value}")
+@app.route("/add")
+def add_incident():
+    return render_template("add_incident.html")
 
-print("\nIncident successfully recorded.")
+if __name__ == "__main__":
+    app.run(debug=True)
